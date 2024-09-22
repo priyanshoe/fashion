@@ -187,8 +187,9 @@ gsap.from('.content3 img', {
     start: 'top 30%',
     // markers:true
   },
-  height: 0,
-  duration: 2
+  opacity: 0,
+  x:-25,
+  duration: 1
 })
 
 gsap.from('.page3 button', {
